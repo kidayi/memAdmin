@@ -87,7 +87,7 @@ $langs['con_saveok']="列表保存成功";
 $langs['con_clearok']="列表已清空";
 $langs['con_listsavetime']="列表保存时间";
 $langs['con_loadlist']="读取列表";
-$langs['con_loadnotice']="载入保存在cookie中的列表，已有列表将被清空，确定载入？";
+$langs['con_loadnotice']="确定载入？";
 
 //memadmin.php
 $langs['mad_con']="连接";

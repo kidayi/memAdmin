@@ -17,7 +17,7 @@ if (isset($_COOKIE['memadmin_cookie_conlist'])) {
 
 $connList=@file_get_contents(configFile); 
 if(strlen($connList)>0){
-	echo json_encode($connList);
+	echo json_encode(unserialize(stripslashes($connList)));
 }else{
 	echo "nolist";
 }
