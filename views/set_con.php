@@ -101,9 +101,13 @@ var con_loadnotice="<?php echo $langs['con_loadnotice'];?>";
           </div>
           <div id="saveclear">
             <ul>
+			  <!--
               <li><a id="clearlist" href="javascript:;"><?php echo $langs['con_clearlist'];?></a></li>
+			  -->
               <li><a id="savelist" href="javascript:;"><?php echo $langs['con_savelist'];?></a></li>
+			  <!--
               <li><a id="loadlist" href="javascript:;"><?php echo $langs['con_loadlist'];?></a></li>
+			  -->
             </ul>
           </div>
         </div>
